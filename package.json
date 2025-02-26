@@ -1,0 +1,26 @@
+{
+  "name": "rizzgod",
+  "version": "1.0.0",
+  "description": "AI-powered web app for generating witty responses for dating apps.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@shadcn/ui": "latest",
+    "@supabase/supabase-js": "latest",
+    "dotenv": "^16.4.7",
+    "next": "latest",
+    "openai": "^4.85.4",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest",
+    "tesseract.js": "^6.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "postcss": "latest"
+  }
+}
